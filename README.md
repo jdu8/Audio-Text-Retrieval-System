@@ -23,7 +23,6 @@ Language-Based Audio Retrieval involves matching text queries with relevant audi
 - **Multiple Audio Encoders**: Implementation of various architectures including:
   - CRNN (Convolutional Recurrent Neural Network)
   - TCN (Temporal Convolutional Network)
-  - Conformer (Convolutional layer + Transformer)
   - Spec2Vec Encoder
   - Custom CNN + BEATs
 
