@@ -53,11 +53,6 @@ Our system follows a bi-encoder architecture with:
 - Parallelizable and faster to train than RNNs
 - Robust to vanishing gradients and more stable on longer sequences
 
-#### Conformer Encoder
-- CNN handles short-term spectral cues
-- Transformer captures long-range dependencies and attention over time
-- Balances local and global context extremely well
-
 #### Spec2Vec Encoder
 - Simple and fast to train
 - Learns holistic representations of entire spectrograms
