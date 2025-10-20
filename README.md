@@ -1,20 +1,12 @@
-# Project Contributors:
+# Audio-Text Retrieval System
 
-Ishan Yadav (iy2159)
-
-Riyam Patel (rp4334)
-
-Nived Damodaran (nd2746)
-
-
-
-# Language-Based Audio Retrieval
-
-This repository contains the implementation of our work on Language-Based Audio Retrieval (LBAR) systems, which retrieve audio signals based on their textual descriptions (audio captions).
+A deep learning system that retrieves audio files based on natural language queries. Simply describe the sound you're looking for in text, and the system will find and rank the most relevant audio clips from a dataset.
 
 ## Overview
 
-Language-Based Audio Retrieval involves matching text queries with relevant audio files. For each text query, our system retrieves and ranks audio files based on their relevance to the query. Our approach builds upon and enhances existing baseline and state-of-the-art methods.
+This project implements a bi-modal retrieval system that bridges the gap between audio and text. Given a text query like "dog barking in the distance" or "rain falling on a metal roof," the system encodes both the text and audio files into a shared embedding space, then retrieves and ranks audio files based on their semantic similarity to the query.
+
+The system supports multiple state-of-the-art audio encoder architectures and loss functions, making it a flexible framework for audio-text retrieval research and applications.
 
 
 
